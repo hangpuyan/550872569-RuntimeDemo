@@ -1,0 +1,14 @@
+//
+//  PrefixHeader.pch
+//  RunTimeDemo
+//
+//  Created by YY on 16/8/27.
+//  Copyright © 2016年 YY. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "Macros.h"
+
+#endif /* PrefixHeader_pch */
