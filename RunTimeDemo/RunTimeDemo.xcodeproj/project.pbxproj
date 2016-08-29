@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B3100291D74220700225317 /* UIButton+touch.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3100281D74220700225317 /* UIButton+touch.m */; };
 		1B8F71901D71E6D900D19E85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8F718F1D71E6D900D19E85 /* main.m */; };
 		1B8F71931D71E6D900D19E85 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8F71921D71E6D900D19E85 /* AppDelegate.m */; };
-		1B8F71961D71E6D900D19E85 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8F71951D71E6D900D19E85 /* ViewController.m */; };
 		1B8F71C51D71E87400D19E85 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B8F71C41D71E87400D19E85 /* Images.xcassets */; };
 		1B8F71C61D71E87400D19E85 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B8F71C41D71E87400D19E85 /* Images.xcassets */; };
 		1B8F71C71D71E87400D19E85 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B8F71C41D71E87400D19E85 /* Images.xcassets */; };
@@ -19,6 +19,9 @@
 		1B8F71E11D71EFCE00D19E85 /* UIImageView+Hack.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8F71E01D71EFCE00D19E85 /* UIImageView+Hack.m */; };
 		1B8F71E21D71EFCE00D19E85 /* UIImageView+Hack.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8F71E01D71EFCE00D19E85 /* UIImageView+Hack.m */; };
 		1B8F71E31D71EFCE00D19E85 /* UIImageView+Hack.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8F71E01D71EFCE00D19E85 /* UIImageView+Hack.m */; };
+		1BF710341D7290D700BC7B04 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF710331D7290D700BC7B04 /* ViewController.m */; };
+		1BF710371D72915600BC7B04 /* YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF710361D72915600BC7B04 /* YYModel.m */; };
+		1BF7103A1D72917200BC7B04 /* NSObject+Runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF710391D72917200BC7B04 /* NSObject+Runtime.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,12 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B3100271D74220700225317 /* UIButton+touch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+touch.h"; sourceTree = "<group>"; };
+		1B3100281D74220700225317 /* UIButton+touch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+touch.m"; sourceTree = "<group>"; };
 		1B8F718B1D71E6D900D19E85 /* RunTimeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RunTimeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B8F718F1D71E6D900D19E85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1B8F71911D71E6D900D19E85 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1B8F71921D71E6D900D19E85 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1B8F71941D71E6D900D19E85 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1B8F71951D71E6D900D19E85 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1B8F719F1D71E6D900D19E85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B8F71A41D71E6D900D19E85 /* RunTimeDemo.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunTimeDemo.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B8F71AF1D71E6D900D19E85 /* RunTimeDemo.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunTimeDemo.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,6 +67,12 @@
 		1B8F71D61D71EA2F00D19E85 /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
 		1B8F71DF1D71EFCE00D19E85 /* UIImageView+Hack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Hack.h"; sourceTree = "<group>"; };
 		1B8F71E01D71EFCE00D19E85 /* UIImageView+Hack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Hack.m"; sourceTree = "<group>"; };
+		1BF710321D7290D700BC7B04 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1BF710331D7290D700BC7B04 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1BF710351D72915500BC7B04 /* YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYModel.h; sourceTree = "<group>"; };
+		1BF710361D72915600BC7B04 /* YYModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYModel.m; sourceTree = "<group>"; };
+		1BF710381D72917200BC7B04 /* NSObject+Runtime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Runtime.h"; sourceTree = "<group>"; };
+		1BF710391D72917200BC7B04 /* NSObject+Runtime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Runtime.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,10 +123,7 @@
 			children = (
 				1B8F71911D71E6D900D19E85 /* AppDelegate.h */,
 				1B8F71921D71E6D900D19E85 /* AppDelegate.m */,
-				1B8F71941D71E6D900D19E85 /* ViewController.h */,
-				1B8F71951D71E6D900D19E85 /* ViewController.m */,
-				1B8F719F1D71E6D900D19E85 /* Info.plist */,
-				1B8F71C41D71E87400D19E85 /* Images.xcassets */,
+				1BF710311D7290D700BC7B04 /* Classes */,
 				1B8F71D41D71EA1200D19E85 /* Lib */,
 				1B8F71C91D71E90000D19E85 /* Macros */,
 				1B8F718E1D71E6D900D19E85 /* Supporting Files */,
@@ -129,6 +135,8 @@
 		1B8F718E1D71E6D900D19E85 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1B8F719F1D71E6D900D19E85 /* Info.plist */,
+				1B8F71C41D71E87400D19E85 /* Images.xcassets */,
 				1B8F71C81D71E89600D19E85 /* PrefixHeader.pch */,
 				1B8F718F1D71E6D900D19E85 /* main.m */,
 			);
@@ -155,12 +163,27 @@
 		1B8F71D41D71EA1200D19E85 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				1B3100271D74220700225317 /* UIButton+touch.h */,
+				1B3100281D74220700225317 /* UIButton+touch.m */,
 				1B8F71D51D71EA2F00D19E85 /* UIColor+Extension.h */,
 				1B8F71D61D71EA2F00D19E85 /* UIColor+Extension.m */,
 				1B8F71DF1D71EFCE00D19E85 /* UIImageView+Hack.h */,
 				1B8F71E01D71EFCE00D19E85 /* UIImageView+Hack.m */,
 			);
 			path = Lib;
+			sourceTree = "<group>";
+		};
+		1BF710311D7290D700BC7B04 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1BF710321D7290D700BC7B04 /* ViewController.h */,
+				1BF710331D7290D700BC7B04 /* ViewController.m */,
+				1BF710351D72915500BC7B04 /* YYModel.h */,
+				1BF710361D72915600BC7B04 /* YYModel.m */,
+				1BF710381D72917200BC7B04 /* NSObject+Runtime.h */,
+				1BF710391D72917200BC7B04 /* NSObject+Runtime.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,7 +319,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B8F71961D71E6D900D19E85 /* ViewController.m in Sources */,
+				1BF710371D72915600BC7B04 /* YYModel.m in Sources */,
+				1BF710341D7290D700BC7B04 /* ViewController.m in Sources */,
+				1BF7103A1D72917200BC7B04 /* NSObject+Runtime.m in Sources */,
+				1B3100291D74220700225317 /* UIButton+touch.m in Sources */,
 				1B8F71931D71E6D900D19E85 /* AppDelegate.m in Sources */,
 				1B8F71E11D71EFCE00D19E85 /* UIImageView+Hack.m in Sources */,
 				1B8F71901D71E6D900D19E85 /* main.m in Sources */,

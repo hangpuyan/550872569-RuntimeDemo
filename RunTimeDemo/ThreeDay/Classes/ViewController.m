@@ -20,8 +20,13 @@
     [super viewDidLoad];
     self.view.backgroundColor = COLOR_WHITE;
     [self configUI];
+    [self getPropretyList];
 }
 
+- (void)getPropretyList {
+    NSArray *arrayModel = [YYModel objPropertyList];
+    NSLog(@"arrayModel:%@",arrayModel);
+}
 - (void)configUI {
     
     UIView *viewRed = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 100, 100)];

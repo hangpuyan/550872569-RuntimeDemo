@@ -14,5 +14,7 @@
 #import "UIColor+Extension.h"
 #import "UIImageView+Hack.h"
 #import <objc/runtime.h>
+#import "NSObject+Runtime.h"
+#import "YYModel.h"
 
 #endif /* Header_h */
